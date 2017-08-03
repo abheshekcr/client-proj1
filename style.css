@@ -7,7 +7,7 @@
 .wrapper{
     display: grid;
     width: 100%;
-    grid-template-rows: 50px 400px repeat(3,500px) 200px 500px 200px;
+    grid-template-rows: 50px 400px repeat(3,500px)  600px 200px 100px ;
     margin: 0 auto;  
 }
 
@@ -97,7 +97,7 @@ div>img{
     margin-top: 10px;
 }
 
-.icons{
+.icons-01{
     margin-top: 30px;
 }
 
@@ -119,6 +119,35 @@ div>img{
 
 .mentor-images{
     padding-top: 10px;
+}
+
+.container-06{
+    text-align: center;  
+    width: 70%;
+    margin: 0 auto; 
+}
+
+.container-06>p{
+    padding-top: 10px;
+}
+
+.container-06>button{
+    margin-top: 30px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #d3d3d3;
+    padding-top: 50px;
+
+}
+
+
+
+.icons{
+    margin-top: -17px;
 }
 
 
