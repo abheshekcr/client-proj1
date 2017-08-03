@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    display: grid;
+    width: 100%;
+    grid-template-rows: 50px 400px repeat(3,500px) 200px 500px 200px;
+    margin: 0 auto;  
+}
+
+.container-01{
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container-inset-01{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.para{
+    width: 50%;
+    margin-top: 100px;
+}
+
+.form{
+    float: right;
+    margin-top: -90px;
+    
+}
+
+input{
+    padding: 20px;
+    width: 100%;
+}
+
+input[type="text"]:focus{
+    background-color: lightblue;
+}
+
+
+.container-inset-02{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.container-inset-021{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.container-inset-021>p{
+    margin-top: 90px;
+}
+
+
+
+.container-inset-031{
+    width: 70%;
+    float: right;
+    padding-top: 40px;
+}
+
+.container-inset-031>h1{
+    margin-left: -400px;
+    padding-bottom: 20px;
+    
+}
+
+.container-inset-031>p{
+    width: 70%;
+}
+
+.container-04{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    width: 70%;
+    margin: 0 auto;
+    grid-column-gap: 30px;
+}
+
+div>img{
+    width:200px;
+    height: 200px;
+}
+
+.items{
+    text-align: center;
+}
+
+.items>p{
+    margin-top: 10px;
+}
+
+.icons{
+    margin-top: 30px;
+}
+
+.fa{
+    padding: 20px;
+}
+
+.container-05{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.container-05>p{
+    padding-top: 20px;
+}
+
+.mentor-images{
+    padding-top: 10px;
+}
+
+
+
+
+div>h1{
+    text-align: center;
+}
+
+
+.header-01{
+   display: flex;
+   justify-content: space-between;
+   width: 80%;
+   margin: 0 auto; 
+   
+}
+
+.header{
+    background:#D3D3D3;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.menu li {
+  padding: 20px;
+  margin-left: 20px;
+}
+
+.logo{
+    padding-left: 20px;
+    padding-top: 5px;
+}
